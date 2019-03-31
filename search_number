@@ -1,0 +1,22 @@
+//Case : we have to find number in given list.
+//Test Case: check by changing the 'n' value.
+
+var a=[10,30,50]
+var n=10
+var cnt=0
+for (var v in a)
+{
+  if(n==a[v])
+  {
+    console.log("Number "+n+" is found in given list at position :"+v)
+  }
+  else
+  {
+    cnt++;
+    if(cnt==a.length)
+    {
+      console.log("Sorry number "+n+"is not found in give list")
+    }
+  }
+  
+}
