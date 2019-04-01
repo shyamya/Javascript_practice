@@ -1,0 +1,13 @@
+var l = [12,54,65,3];
+var maxnum=l[0];
+ 
+for (var v in l) {
+  //console.log(l[i])
+  if (maxnum >l[v]) {
+    maxnum = l[v]
+
+   
+  }
+
+}
+console.log(maxnum) 
