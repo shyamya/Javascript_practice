@@ -1,0 +1,14 @@
+var l = [12,4,65,3,3,4];
+var num=3;
+var cnt=0;
+ 
+for (var v in l) {
+  //console.log(l[i])
+  if (num ==l[v]) {
+    cnt++
+
+   
+  }
+
+}
+console.log("Number:- "+num+" occurs "+cnt+" times in given list")
