@@ -1,0 +1,15 @@
+//number of list given  and we have to find max number.
+
+var l = [1234,54,65,578];
+var maxnum=l[0];
+ 
+for (var v in l) {
+  //console.log(l[i])
+  if (maxnum < l[v]) {
+    maxnum = l[v]
+
+   
+  }
+
+}
+console.log(maxnum) 
