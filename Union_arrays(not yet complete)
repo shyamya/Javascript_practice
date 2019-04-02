@@ -1,0 +1,19 @@
+var l1 = [40, 20, 45, 30,44];
+var l2 = [10, 20, 40,77];
+var l = []
+
+
+
+for (var i = 0; i < l1.length; i++) {
+  l[i] = l1[i]
+
+
+}
+
+var  i = l1.length
+for (var j = 0; j < l2.length; j++) {
+  for (var k = 0; k < l1.length; k++) {
+   
+  }
+}
+console.log(l)
