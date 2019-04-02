@@ -1,4 +1,4 @@
-//case:two list are given and we need to sum
+//case:two array are given and we need to sum
 //test case: 
 
 var l1 = [10, 30, 50];
