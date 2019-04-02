@@ -1,0 +1,17 @@
+var l1 = [40,20,45,60,10,70];
+var l2 = [10,20,40,70,80,90];
+var l=[]
+
+for (var i in l1)
+{
+  //console.log("i="+i)
+ for(var j in l2)
+ {
+   //console.log("j="+j)
+   if(l1[i]==l2[j])
+   {
+     
+     console.log(l1[i])
+   }
+ }
+}
