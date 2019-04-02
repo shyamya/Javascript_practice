@@ -1,0 +1,33 @@
+var l = [10, 10];
+var l1 = [];
+var l2 = [];
+
+
+var listlen_check = l.length
+
+if (l.length == 1 || l.length == 0) {
+
+  console.log(l)
+} else if (l.length%2 == 0) {
+  for (var i = 0; i < listlen_check/2; i++) {
+    l1[i] = l[i]
+  }
+  for (var i = listlen_check/2; i < listlen_check; i++) {
+    l2[i] = l[i]
+  }
+
+} else {
+  for (var i = 0; i < (listlen_check+1/2); i++) {
+    l1[i] = l[i]
+
+  }
+  for (var i = (listlen_check+1/2); i < listlen_check; i++) {
+    l2[i] = l[i]
+
+  }
+
+
+}
+console.log(l);
+console.log(l1);
+console.log(l2);
