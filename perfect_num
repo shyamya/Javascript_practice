@@ -1,0 +1,24 @@
+//it gives perfect number between 1 and 1000
+
+for (var n=1;n<1001;n++)
+{
+  
+var sum=0;
+var i=1;
+while(i<n)
+{
+  if (n%i==0)
+  {
+  sum=sum+i
+  //console.log(i)
+  }
+  i++
+  
+}
+
+if(sum==n)
+{
+console.log(n+" is perfect")
+}
+
+}
